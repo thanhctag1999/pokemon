@@ -1,0 +1,46 @@
+.appPage {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+.pkm-item {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  list-style-type: none;
+  background: linear-gradient(to right bottom, #7ea5ff, #8e54e9);
+  border-radius: 10px;
+  margin: 5px;
+}
+.pkm-item:hover {
+  background: linear-gradient(to right bottom, #7eff9e, #def84a);
+}
+.selected {
+  background: linear-gradient(to right bottom, #fde353, #df7a1c);
+}
+.incorrect {
+  background: linear-gradient(to right bottom, #fd5353, #df1c1c);
+}
+.incorrect:hover {
+  background: linear-gradient(to right bottom, #fd5353, #df1c1c);
+}
+.correct {
+  background: transparent;
+  visibility: hidden;
+}
+.alert {
+  position: absolute;
+  right: 10px;
+}
+.display {
+  display: block !important;
+}
+.none {
+  display: none !important;
+}
+.play-again {
+  cursor: pointer;
+}
